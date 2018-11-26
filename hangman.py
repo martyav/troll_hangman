@@ -110,7 +110,7 @@ GAME_WORDS = ['supercalifragilisticexpialidocious',
               'electroencephalograph',
               'floccinaucinihilipilification',
               'qwertyuiopasdfghjklzxcvbnm',
-              'abcdefghijklmnopqrstuvwxyz'
+              'abcdefghijklmnopqrstuvwxyz',
               'uncharacterically',
               'internationalization',
               'pneumonoultramicroscopicsilicovolcanoconiosis'
