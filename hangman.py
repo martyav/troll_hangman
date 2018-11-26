@@ -8,32 +8,32 @@ There are also some 20+ letter words sprinkled in, for variety.
 A few single letter words, as well.
 One of the single letter words is 20+ letters long.
 
-Users can type y (or yes) to play, or n (or no) to exit.
+It accepts no arguments, and returns nothing.
 
+However, users can type y (or yes) to play, or n (or no) to exit.
 During the course of the game, they can only guess letters.
-
-They cannot exit a game until they have correctly guessed all the letters.
+They cannot exit a game while playing until they have correctly guessed all the letters.
 """
 
 import random
 import re
 
-def letter_revealer(string, letters):
+def letter_revealer(string, guessed_letters):
     """
-    Takes in a string and returns a string of the same length,
+    Take in a string and return a string of the same length,
     containing dashes and letters. Any letter in both the
-    original string and letters is also present in
-    the return string. Any letter NOT in both the original
-    string and letters is 'hidden' in the return string,
-    with a dash.
+    original string and guessed_letters is also present in
+    the returned string. Any letter NOT in both the original
+    string and guessed_letters is 'hidden' in the returned
+    string, with a dash.
     """
     return_string = ''
 
-    if not letters:
+    if not guessed_letters:
         return_string = '-' * len(string)
     else:
         for letter in string:
-            if letter in letters:
+            if letter in guessed_letters:
                 return_string += letter
             else:
                 return_string += '-'
