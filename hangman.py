@@ -22,9 +22,9 @@ def letter_revealer(string, letters):
     """
     Takes in a string and returns a string of the same length,
     containing dashes and letters. Any letter in both the
-    original string and revealed_letters is also present in
+    original string and letters is also present in
     the return string. Any letter NOT in both the original
-    string and revealed_letters is 'hidden' in the return string,
+    string and letters is 'hidden' in the return string,
     with a dash.
     """
     return_string = ''
