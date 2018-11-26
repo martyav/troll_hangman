@@ -2,7 +2,7 @@
 This is a script that plays Hangman.
 
 It plays Hangman using mostly 2 letter words.
-Some of the two letter words are two letters long.
+Some of the 2 letter words are 2 letters long.
 Some are not.
 There are also some 20+ letter words sprinkled in, for variety.
 A few single letter words, as well.
